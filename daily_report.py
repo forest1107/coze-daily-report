@@ -4,7 +4,7 @@ import json
 requests.packages.urllib3.disable_warnings()
 
 # ====================== 替换成你的参数（仅改这里） ======================
-COZE_TOKEN = "pat_OgRPID0MSumM6oSwyFAKxfdeCjCMm46aBoyU5gVEOeS7icmToaYSDZNEJiPF07bz"  # 必须是新建的令牌
+COZE_TOKEN = "pat_4TcOw8JB27lv5H92umYAfTAoarw56ch1hIBvXO0aw0GoUcfyR8qoIUaV5EdlaGoz"  # 必须是新建的令牌
 COZE_BOT_ID = "7609251421359898676"  # 以bot_开头的字符串
 FEISHU_WEBHOOK = "https://open.feishu.cn/open-apis/bot/v2/hook/31ef233d-cdbe-46f3-a97b-c1ce8e3d2b5f"  # 以https://open.feishu.cn/开头
 # ======================================================================
