@@ -9,7 +9,7 @@ FEISHU_WEBHOOK = "https://open.feishu.cn/open-apis/bot/v2/hook/31ef233d-cdbe-46f
 
 def get_coze_report():
     """调用Coze API生成AI日报"""
-    url = "https://api.coze.cn/v1/chat/completions"
+    url = "https://api.coze.com/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {COZE_TOKEN}",
         "Content-Type": "application/json"
@@ -17,7 +17,7 @@ def get_coze_report():
     payload = {
         "bot_id": COZE_BOT_ID,
         "user_id": "your_user_id",  # 随便填，比如你的手机号
-        "query": "帮我汇总今天的AI资讯，包括36氪、虎嗅、IT之家、InfoQ的内容，每条不超过50字，分来源列出",
+        "query": "帮我汇总今天的AI资讯，包括36氪、虎嗅、IT之家、InfoQ的内容，每条不超过100字，分来源列出",
         "stream": False
     }
     
